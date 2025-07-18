@@ -3,27 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ultimate Used Car Dealership - Premium Pre-owned Vehicles</title>
     <meta name="description" content="Find your perfect pre-owned vehicle with guaranteed quality, low mileage, and excellent after-service support.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-<body class="font-sans antialiased text-gray-800 bg-white">
+<body class="font-sans antialiased text-gray-800 bg-white scroll-smooth">
     <header class="fixed w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <div class="text-2xl font-bold tracking-tight">
+                <a href="https://cwpete61.github.io/ultimate-used-car-dealership-2025-07-18-zaf5n" class="text-2xl font-bold tracking-tight hover:text-gray-600 transition-colors duration-300">
                     Ultimate Cars
-                </div>
+                </a>
                 <div class="hidden md:flex space-x-8">
                     <a href="#features" class="hover:text-gray-600 transition-colors duration-300">Features</a>
                     <a href="#benefits" class="hover:text-gray-600 transition-colors duration-300">Benefits</a>
+                    <a href="#testimonials" class="hover:text-gray-600 transition-colors duration-300">Testimonials</a>
+                    <a href="#about" class="hover:text-gray-600 transition-colors duration-300">About</a>
                     <a href="#faq" class="hover:text-gray-600 transition-colors duration-300">FAQ</a>
                     <a href="#contact" class="hover:text-gray-600 transition-colors duration-300">Contact</a>
                 </div>
-                <button class="md:hidden">
-                    <i class="fas fa-bars text-xl"></i>
+                <button class="mobile-menu-button md:hidden" aria-label="Toggle mobile menu">
+                    <i class="fas fa-bars text-2xl"></i>
                 </button>
+            </div>
+            <div class="mobile-menu hidden md:hidden mt-4 bg-white rounded-lg shadow-lg absolute left-0 right-0 p-4">
+                <div class="flex flex-col space-y-4">
+                    <a href="#features" class="hover:bg-gray-100 px-4 py-2 rounded transition-colors duration-300">Features</a>
+                    <a href="#benefits" class="hover:bg-gray-100 px-4 py-2 rounded transition-colors duration-300">Benefits</a>
+                    <a href="#testimonials" class="hover:bg-gray-100 px-4 py-2 rounded transition-colors duration-300">Testimonials</a>
+                    <a href="#about" class="hover:bg-gray-100 px-4 py-2 rounded transition-colors duration-300">About</a>
+                    <a href="#faq" class="hover:bg-gray-100 px-4 py-2 rounded transition-colors duration-300">FAQ</a>
+                    <a href="#contact" class="hover:bg-gray-100 px-4 py-2 rounded transition-colors duration-300">Contact</a>
+                </div>
             </div>
         </nav>
     </header>
@@ -33,12 +53,12 @@
             <div class="container mx-auto px-6">
                 <div class="max-w-4xl mx-auto text-center">
                     <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight tracking-tighter mb-8">
-                        It Doesn't Have To Be New To Be Better!
+                        Drive Premium Without Breaking the Bank
                     </h1>
                     <p class="text-xl text-gray-600 mb-12">
-                        Experience premium pre-owned vehicles with confidence and peace of mind.
+                        Discover meticulously inspected, low-mileage vehicles backed by our industry-leading warranty and comprehensive after-sales support.
                     </p>
-                    <a href="https://google.com" class="inline-block bg-gray-900 text-white px-8 py-4 rounded-lg font-semibold hover:transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+                    <a href="https://google.com" class="inline-block bg-gray-900 text-white px-8 py-4 rounded-lg font-semibold hover:transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl hover:bg-gray-800">
                         Browse Our Inventory
                     </a>
                 </div>
@@ -49,20 +69,20 @@
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Premium Features</h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                    <div class="p-8 rounded-xl bg-gray-50 hover:shadow-xl transition-shadow duration-300">
-                        <i class="fas fa-tachometer-alt text-3xl text-gray-900 mb-6"></i>
-                        <h3 class="text-xl font-semibold mb-4">Low Mileage</h3>
-                        <p class="text-gray-600">Carefully selected vehicles with verified low mileage for your peace of mind.</p>
+                    <div class="p-8 rounded-xl bg-gray-50 hover:shadow-xl transition-all duration-300 hover:transform hover:scale-102 group">
+                        <i class="fas fa-tachometer-alt text-3xl text-gray-900 mb-6 group-hover:text-blue-600 transition-colors duration-300"></i>
+                        <h3 class="text-xl font-semibold mb-4">Certified Low Mileage</h3>
+                        <p class="text-gray-600">Every vehicle undergoes a rigorous 150-point inspection with verified mileage history and comprehensive documentation.</p>
                     </div>
-                    <div class="p-8 rounded-xl bg-gray-50 hover:shadow-xl transition-shadow duration-300">
-                        <i class="fas fa-wrench text-3xl text-gray-900 mb-6"></i>
-                        <h3 class="text-xl font-semibold mb-4">After-Service</h3>
-                        <p class="text-gray-600">Comprehensive after-sales support to keep your vehicle in perfect condition.</p>
+                    <div class="p-8 rounded-xl bg-gray-50 hover:shadow-xl transition-all duration-300 hover:transform hover:scale-102 group">
+                        <i class="fas fa-wrench text-3xl text-gray-900 mb-6 group-hover:text-blue-600 transition-colors duration-300"></i>
+                        <h3 class="text-xl font-semibold mb-4">Premium After-Service</h3>
+                        <p class="text-gray-600">24/7 roadside assistance, scheduled maintenance, and priority service appointments at our state-of-the-art facility.</p>
                     </div>
-                    <div class="p-8 rounded-xl bg-gray-50 hover:shadow-xl transition-shadow duration-300">
-                        <i class="fas fa-star text-3xl text-gray-900 mb-6"></i>
-                        <h3 class="text-xl font-semibold mb-4">High Quality Cars</h3>
-                        <p class="text-gray-600">Rigorous quality control ensures only the best vehicles make it to our lot.</p>
+                    <div class="p-8 rounded-xl bg-gray-50 hover:shadow-xl transition-all duration-300 hover:transform hover:scale-102 group">
+                        <i class="fas fa-star text-3xl text-gray-900 mb-6 group-hover:text-blue-600 transition-colors duration-300"></i>
+                        <h3 class="text-xl font-semibold mb-4">Elite Selection</h3>
+                        <p class="text-gray-600">Only the top 1% of pre-owned vehicles meet our stringent quality standards, ensuring exceptional value and reliability.</p>
                     </div>
                 </div>
             </div>
@@ -70,23 +90,93 @@
 
         <section id="benefits" class="py-24 bg-gray-50">
             <div class="container mx-auto px-6">
-                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Why Choose Us</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Why Choose Ultimate Cars</h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                    <div class="text-center">
-                        <i class="fas fa-check-circle text-3xl text-gray-900 mb-6"></i>
-                        <h3 class="text-xl font-semibold mb-4">Easy to Qualify</h3>
-                        <p class="text-gray-600">Flexible financing options to suit your needs.</p>
+                    <div class="text-center group hover:transform hover:scale-102 transition-all duration-300">
+                        <i class="fas fa-check-circle text-3xl text-gray-900 mb-6 group-hover:text-green-600 transition-colors duration-300"></i>
+                        <h3 class="text-xl font-semibold mb-4">Flexible Financing</h3>
+                        <p class="text-gray-600">90% approval rate with customized payment plans and competitive interest rates from multiple lenders.</p>
                     </div>
-                    <div class="text-center">
-                        <i class="fas fa-dollar-sign text-3xl text-gray-900 mb-6"></i>
-                        <h3 class="text-xl font-semibold mb-4">Low Down Payment</h3>
-                        <p class="text-gray-600">Get started with minimal upfront investment.</p>
+                    <div class="text-center group hover:transform hover:scale-102 transition-all duration-300">
+                        <i class="fas fa-dollar-sign text-3xl text-gray-900 mb-6 group-hover:text-green-600 transition-colors duration-300"></i>
+                        <h3 class="text-xl font-semibold mb-4">Accessible Entry</h3>
+                        <p class="text-gray-600">Start driving your dream car with as little as 10% down and receive up to $2,000 in dealer incentives.</p>
                     </div>
-                    <div class="text-center">
-                        <i class="fas fa-shield-alt text-3xl text-gray-900 mb-6"></i>
-                        <h3 class="text-xl font-semibold mb-4">Warranty Included</h3>
-                        <p class="text-gray-600">Comprehensive coverage for your peace of mind.</p>
+                    <div class="text-center group hover:transform hover:scale-102 transition-all duration-300">
+                        <i class="fas fa-shield-alt text-3xl text-gray-900 mb-6 group-hover:text-green-600 transition-colors duration-300"></i>
+                        <h3 class="text-xl font-semibold mb-4">Premium Protection</h3>
+                        <p class="text-gray-600">Industry-leading 5-year/60,000-mile warranty covering 1,000+ components with zero deductible.</p>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Customer Success Stories</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-gray-50 p-8 rounded-xl hover:shadow-xl transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                        </div>
+                        <p class="text-gray-600 mb-4">"Found my dream BMW with only 20k miles at an incredible price. The financing process was smooth, and their after-service support is exceptional."</p>
+                        <p class="font-semibold">Michael Thompson</p>
+                        <p class="text-sm text-gray-500">Software Engineer, Tech Corp</p>
+                    </div>
+                    <div class="bg-gray-50 p-8 rounded-xl hover:shadow-xl transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                        </div>
+                        <p class="text-gray-600 mb-4">"The warranty coverage saved me thousands on unexpected repairs. Their service team is professional and always available."</p>
+                        <p class="font-semibold">Sarah Martinez</p>
+                        <p class="text-sm text-gray-500">Business Owner</p>
+                    </div>
+                    <div class="bg-gray-50 p-8 rounded-xl hover:shadow-xl transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                        </div>
+                        <p class="text-gray-600 mb-4">"Got approved with a less-than-perfect credit score and reasonable monthly payments. The car has been running perfectly for over a year."</p>
+                        <p class="font-semibold">David Wilson</p>
+                        <p class="text-sm text-gray-500">Restaurant Manager</p>
+                    </div>
+                    <div class="bg-gray-50 p-8 rounded-xl hover:shadow-xl transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                        </div>
+                        <p class="text-gray-600 mb-4">"The inspection process gave me complete confidence in my purchase. Their attention to detail and customer service is unmatched."</p>
+                        <p class="font-semibold">Jennifer Lee</p>
+                        <p class="text-sm text-gray-500">Healthcare Professional</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-24 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">About Ultimate Cars</h2>
+                <div class="max-w-3xl mx-auto space-y-8">
+                    <p class="text-gray-600 leading-relaxed">
+                        Founded in 2010 by automotive enthusiasts with over 50 years of combined industry experience, Ultimate Cars has revolutionized the pre-owned vehicle market. What began as a small family-owned dealership has grown into the region's premier destination for quality pre-owned vehicles, serving over 10,000 satisfied customers.
+                    </p>
+                    <p class="text-gray-600 leading-relaxed">
+                        Our mission is to redefine the pre-owned car buying experience through transparency, quality, and unmatched customer service. We believe everyone deserves to drive a premium vehicle without compromise, which is why we maintain the highest standards in vehicle selection, preparation, and after-sales support.
+                    </p>
                 </div>
             </div>
         </section>
@@ -95,26 +185,34 @@
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
                 <div class="max-w-3xl mx-auto space-y-6">
-                    <div class="border rounded-lg p-6 hover:shadow-md transition-shadow duration-300">
-                        <h3 class="text-xl font-semibold mb-4">What types of warranty do you offer?</h3>
-                        <p class="text-gray-600">We offer comprehensive warranties covering major components and systems.</p>
+                    <div class="border rounded-lg p-6 hover:shadow-md transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">What sets your warranty apart from others?</h3>
+                        <p class="text-gray-600">Our comprehensive 5-year/60,000-mile warranty covers over 1,000 components with zero deductible and includes 24/7 roadside assistance, rental car coverage, and transferable benefits.</p>
                     </div>
-                    <div class="border rounded-lg p-6 hover:shadow-md transition-shadow duration-300">
-                        <h3 class="text-xl font-semibold mb-4">How do I qualify for financing?</h3>
-                        <p class="text-gray-600">We work with multiple lenders to find the best financing options for your situation.</p>
+                    <div class="border rounded-lg p-6 hover:shadow-md transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">How does your financing process work?</h3>
+                        <p class="text-gray-600">We partner with multiple lenders to offer competitive rates and flexible terms. Our digital application takes just 5 minutes, with pre-approval decisions typically within an hour.</p>
                     </div>
-                    <div class="border rounded-lg p-6 hover:shadow-md transition-shadow duration-300">
-                        <h3 class="text-xl font-semibold mb-4">What's included in the after-service?</h3>
-                        <p class="text-gray-600">Regular maintenance, repairs, and 24/7 support for any issues.</p>
+                    <div class="border rounded-lg p-6 hover:shadow-md transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">What's included in your vehicle inspection process?</h3>
+                        <p class="text-gray-600">Every vehicle undergoes a rigorous 150-point inspection by certified technicians, including mechanical, electrical, and safety systems. We provide detailed inspection reports and vehicle history documentation.</p>
+                    </div>
+                    <div class="border rounded-lg p-6 hover:shadow-md transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">Can I trade in my current vehicle?</h3>
+                        <p class="text-gray-600">Yes! We offer competitive trade-in values and can apply the amount directly to your down payment. Our appraisal process is quick and transparent.</p>
+                    </div>
+                    <div class="border rounded-lg p-6 hover:shadow-md transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">What after-sales support do you provide?</h3>
+                        <p class="text-gray-600">Our comprehensive support includes scheduled maintenance, priority service appointments, 24/7 roadside assistance, and a dedicated customer service team.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="py-24 bg-gray-900 text-white">
-            <div class="container mx-auto px-6 text-center">
-                <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Find Your Perfect Car?</h2>
-                <p class="text-xl mb-12">Browse our premium selection of pre-owned vehicles today.</p>
+        <section class="py-24 bg-gray-900 text-white" style="background-image: url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1920'); background-size: cover; background-position: center;">
+            <div class="container mx-auto px-6 text-center bg-black/50 py-16 rounded-xl">
+                <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Drive Your Dream Car?</h2>
+                <p class="text-xl mb-12">Browse our premium selection of certified pre-owned vehicles and schedule a test drive today.</p>
                 <a href="https://google.com" class="inline-block bg-white text-gray-900 px-8 py-4 rounded-lg font-semibold hover:transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
                     View Inventory
                 </a>
@@ -122,30 +220,35 @@
         </section>
     </main>
 
-    <footer class="bg-gray-100 py-16">
+    <footer id="contact" class="bg-gray-100 py-16">
         <div class="container mx-auto px-6">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
                 <div>
                     <h3 class="text-xl font-bold mb-4">Ultimate Cars</h3>
-                    <p class="text-gray-600">Premium pre-owned vehicles for discerning buyers.</p>
+                    <p class="text-gray-600">Your trusted partner in premium pre-owned vehicles since 2010.</p>
                 </div>
                 <div>
                     <h3 class="text-xl font-bold mb-4">Contact</h3>
-                    <p class="text-gray-600">Help@dealer.com</p>
+                    <p class="text-gray-600">Email: help@ultimatecars.com</p>
+                    <p class="text-gray-600">Phone: (555) 123-4567</p>
+                    <p class="text-gray-600">Address: 123 Auto Drive, Car City, ST 12345</p>
                 </div>
                 <div>
                     <h3 class="text-xl font-bold mb-4">Quick Links</h3>
                     <ul class="space-y-2 text-gray-600">
-                        <li><a href="#features" class="hover:text-gray-900">Features</a></li>
-                        <li><a href="#benefits" class="hover:text-gray-900">Benefits</a></li>
-                        <li><a href="#faq" class="hover:text-gray-900">FAQ</a></li>
+                        <li><a href="#features" class="hover:text-gray-900 transition-colors duration-300">Features</a></li>
+                        <li><a href="#benefits" class="hover:text-gray-900 transition-colors duration-300">Benefits</a></li>
+                        <li><a href="#testimonials" class="hover:text-gray-900 transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="#about" class="hover:text-gray-900 transition-colors duration-300">About</a></li>
+                        <li><a href="#faq" class="hover:text-gray-900 transition-colors duration-300">FAQ</a></li>
+                        <li><a href="https://cwpete61.github.io/ultimate-used-car-dealership-2025-07-18-zaf5n/blog.html" class="hover:text-gray-900 transition-colors duration-300">Blog</a></li>
                     </ul>
                 </div>
                 <div>
                     <h3 class="text-xl font-bold mb-4">Legal</h3>
                     <ul class="space-y-2 text-gray-600">
-                        <li><a href="#" class="hover:text-gray-900">Privacy Policy</a></li>
-                        <li><a href="#" class="hover:text-gray-900">Terms of Service</a></li>
+                        <li><a href="https://cwpete61.github.io/ultimate-used-car-dealership-2025-07-18-zaf5n/privacy.html" class="hover:text-gray-900 transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://cwpete61.github.io/ultimate-used-car-dealership-2025-07-18-zaf5n/terms.html" class="hover:text-gray-900 transition-colors duration-300">Terms of Service</a></li>
                     </ul>
                 </div>
             </div>
@@ -154,5 +257,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
